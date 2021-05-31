@@ -1,0 +1,94 @@
+html {
+  border: solid;
+  border-width: 10px;
+  border-color: #49111c;
+}
+
+body {
+  background-color:#f2f4f3
+}
+
+p {
+  color: #0a0908;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 300px;
+}
+
+.heading {
+  background-color: #a9927d;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #0a0908;
+  border-style: outset;
+  border-color: #5e503f;
+  padding: 5px;
+}
+
+.caption {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.quote {
+  font-family: Times New 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+.body-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+.timeline-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+
+.timeline-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.bibliography-text {
+  font-family: Times New 'Times New Roman', Times, serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.navbar {
+  overflow: auto;
+  background-color: #49111c;
+  border-color: #0a0908;
+  border-style: inset;
+  border-width: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4px;
+}
+
+.navbar-text{
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+}
+
+.navbar-text:hover {
+  color: #a9927d;
+}
+
+.quote-div {
+  border: dashed #5e503f 2px;
+}
