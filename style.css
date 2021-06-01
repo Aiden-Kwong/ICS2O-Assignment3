@@ -45,12 +45,15 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
   font-size: 14px;
+  margin: 10px;
 }
 
 .timeline-text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   font-size: 14px;
+  padding: 12px 16px;
+  display: block;
 }
 
 .timeline-heading {
@@ -73,6 +76,7 @@ p {
   position: -webkit-sticky;
   position: sticky;
   top: 4px;
+  z-index: 2;
 }
 
 .navbar-text{
@@ -92,3 +96,47 @@ p {
 .quote-div {
   border: dashed #5e503f 2px;
 }
+
+.dropbtn {
+  background-color: #a9927d;
+  border: outset;
+  border-color: #5e503f;
+  color: #0a0908;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  border-color: #49111c;
+}
+
+.dropdown {
+  position: relative;
+  padding: 2%;
+  margin: auto;
+}
+
+.dropdown-content {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  position: static;
+  top: 72%;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  max-width: 90%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.show {display: block;}
