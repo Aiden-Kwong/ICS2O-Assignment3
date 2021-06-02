@@ -133,11 +133,10 @@ p {
   width: 90%;
   position: static;
   top: 72%;
-  background-color: #f1f1f1;
+  background-color: #f2f4f3;
   min-width: 160px;
   max-width: 90%;
   overflow: auto;
-  box-shadow: 0, 8, 16, 0, rgba(0, 0, 0, 0, 2);
   z-index: 1;
 }
 
